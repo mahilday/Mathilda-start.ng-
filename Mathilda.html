@@ -4,25 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Mathilda.css">
     <title>Document</title>
 </head>
 <body>
-<center>
+    <header>
+<section>
     <img src ="https://res.cloudinary.com/matsxript/image/upload/c_scale,e_auto_brightness,h_307,q_100,r_0/v1566559574/InstaSave_s0gd2r.jpg"
-     width ="300px" height = "300px"/>
-    <h1>MATHILDA IMADOJIEMU</h1></center><br/>
-<center>
-    <table>
-        <tr>
-            <td> Email : <a href ="mailto:mathildaimadojiemu@gmail.com">mathildaimadojiemu@gmail.com</a></td>
-           <td> Telephone :  <a href = "tel:+2349093907765"> +2349093907765</a></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
-</center>
+     width ="300px" height = "300px"/></section>
+   <br/>
+<section class = "name">
+        <h1>MATHILDA IMADOJIEMU</h1><br/>
+    <!-- <table> -->
+        <!-- <tr class = "row"> -->
+            <!-- <td >  -->
+                <div class = "mailandphone">
+                <p><b>Email :</b> <a href ="mailto:mathildaimadojiemu@gmail.com">mathildaimadojiemu@gmail.com</a></p>
+            <!-- </td> -->
+        <!-- </tr><br/> --><br/>
+        <!-- <tr class = "row"> -->
+                <!-- <td class = "des"> -->
+                   <p> <b> Telephone :  </b><a href = "tel:+2349093907765"> +2349093907765</a></p>
+                </div>
+                <!-- </td> -->
+        <!-- </tr> </table> -->
+</section>
+</header>
 <br/>
-<hr>
+<!-- <center><hr class = "line"></center> -->
 <br/>
 <summary><h2>Professional summary</h2>
     <details>
@@ -30,12 +39,12 @@
              Talented in project management, team leadership and problem solving which are key to good work.
     </details>
 </summary><br/><br/><br/>
-<hr>
+<!-- <hr> -->
 <br/><br/>
 <section>
-    <table width ="100%">
+    <!-- <table width ="100%">
         <tr rowspan = "2">
-            <th colspan="3"><h2>Skills<hr width = "10%"></h2></th>
+            <th class = "skill" colspan="3"><h2>Skills</h2></th>
             <th></th>
             <th> </th>
         </tr>
@@ -44,18 +53,18 @@
             <td></td>
             <td></td>
         </tr>
-        <tr>
+        <tr class = "td">
             <td><ol>
                     <li>HTML </li></ol></td>
-            <td><ol start="2" >
+            <td class= "td"><ol start="2" >
                     <li>CSS </li></ol></td>
             <td><ol start="3">
                     <li>JAVASCRIPT</li></ol></td>
         </tr>
-        <tr>
+        <tr >
             <td><ol start="4">
                     <li>BOOTSTRAP 3 AND 4</li></ol></td>
-            <td><ol start="5">
+            <td class= "td"><ol start="5">
                     <li>LESS AND SCSS</li></ol></td>
             <td><ol start="6">
                     <li>JQUERY </li></ol></td>
@@ -63,25 +72,36 @@
         <tr>
             <td><ol start="7">
                     <li>LOGICAL REASONING </li></ol></td>
-            <td><ol start="8">
+            <td class= "td" ><ol start="8">
                     <li>TEAM WORK </li></ol></td>
             <td><ol start="9">
                     <li >FLEXBOX</li></ol></td>
         </tr>
        
-    <!-- <li> CSS</li>
-    <li>JAVASCRIPT</li>
-    <li>JQUERY</li>
-    <li> BOOTSTRAP 3 AND 4</li>
+    <!-- <li> CSS</li> -->
+    <h2 class = "skills"><strong>Skills</strong></h2>
+    <ol class = 'allskills'>
+       
+        <div class = 'first'>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li> BOOTSTRAP 3 AND 4</li>
+</div>
+<div class = 'first'>
     <li>FLEXBOX</li>
     <li> Logical Reasoning</li>
     <li> Team Work</li>
+</div>
+<div>
     <li>LESS and SCSS</li>
-</ol> -->
-</table>
+    <li>JAVASCRIPT</li>
+    <li>JQUERY</li>
+</div>
+
+</ol>
 </section>
-<br/><br/><hr><br>
-<section>
+<br/><br/><br>
+<section class = "work">
     <h2>
         Work history
     </h2>
@@ -106,32 +126,36 @@
             <td></td>
         </tr>
         <tr>
-            <td><em><ol><li>Received training from Coven labs (curators university) and NWT( Nigerian Women Techsters ).</li><br/>
+            <td><em><ol><div><li>Received training from Coven labs (curators university) and NWT( Nigerian Women Techsters ).</li><br/>
                 <li>Developed projects after each training which included, building sites, creating ideas, working in teams, 
                     and work ethics.</li><br/>
                 <li>Joined various developer circles which assisted me in development and networking.</li><br/>
                 <li>Joined Andela Learning Community 4.0 ( currently in phase two ).</li><br/>
+            </div>
+            <div>
                 <li>Used programming capabilities in SQL and JavaScript.</li><br/>
                 <li>Established ideas for projects and prepared all team members to meet aggressive deadlines.</li><br/>
-                <li>Converted mockups into HTML, JavaScript, AJAX and JSON.</li></ol></em></td>
+                <li>Converted mockups into HTML, JavaScript, AJAX and JSON.</li></ol></em>
+            </div></td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
     </table>
 </section>
-<section>
+<section class= 'education'>
     <h2>Education</h2>
+    <div>
     <p>Cream Crest Secondary School Ikhueniro, Benin City<br/>
-            High School Diploma
+           <b><small> High School Diploma</small></b>
             </p>
-            <p>
-                    Expected in October 2020 University Of Benin  Benin City, <br/>ED
-                    Bachelor of Science Animal And Environmental  Biology( AEB ).
+            <p class ='paragraph'>
+                    Bachelor of Science Animal And Environmental  Biology( AEB ).<br/>
+                   <b> <small> Expected in October 2020 University Of Benin  Benin City, <br/>ED</small></b>
                     
             </p>
+        </div>
 </section><br/><br/>
-<hr>
 <footer>
     <h2>Contacts</h2>
     <table>
